@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KEOL</title>
+	<style>
+      .container {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+
+		body {
+			background-color: white;
+		}
+		.header {
+			background-color: blue;
+			padding: 10px;
+			text-align: center;
+			color: white;
+		}
+		.line {
+			border-top: 2px solid blue;
+		}
+		.container {
+			margin: 0 auto;
+			width: 50%;
+			padding: 20px;
+		}
+        
+		.login-heading {
+			text-align: center;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		input[type="text"],
+		input[type="password"] {
+			padding: 10px;
+			margin-bottom: 20px;
+			width: 100%;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			resize: vertical;
+		}
+		button[type="submit"] {
+			background-color: blue;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			float: right;
+		}
+        
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>KEOL</h1>
+	</div>
+	<div class="line"></div>
+	<div class="container">
+		<div class="login-heading">
+			<h2>LOGIN</h2>
+		</div>
+		<form>
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your email..">
+
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" placeholder="Your password..">
+
+			<button type="submit">LOGIN</button>
+		</form>
+	</div>
+</body>
+</html>
